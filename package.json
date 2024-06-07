@@ -4,8 +4,9 @@
   "description": "Prototipo",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "nodemon server.js",
+    "start": "node server.js",
+    "host": "start host.bat"
   },
   "author": "Os doido da UTFPR",
   "license": "ISC",
