@@ -1,9 +1,9 @@
-// - - - - - - - - - - - - - - - - - - Imports - - - - - - - - - - --
+// - - - - - - - - - - - - - - - - - - - Imports  - - - - - - - - - -
       const express  = require('express');
       const mongoose = require('mongoose');
       const bcrypt   = require('bcrypt');
       const jwt      = require('jsonwebtoken');
-// - - - - - - - - - - - - - - - - - - Declarações - - - - - - - - --
+// - - - - - - - - - - - - - - - - - - Declarações - - - - - - - -  -
       const app = express();
 
       app.use('static', express.static('public'));
@@ -13,7 +13,7 @@
                   res.sendFile(__dirname + `/public/${file}`);
             })
       }
-// - - - - - - - - - - - - - - - - - - Redirecionamento - - - - - - -
+// - - - - - - - - - - - - - - - - - Redirecionamento - - - - - - - -
       newPorta('/', '/index.html');
 
       newPorta('/aulas', 'aulas.html');
@@ -35,5 +35,8 @@
       newPorta('/sobre', 'sobreNos.html');
 
       newPorta('/termos', 'termos.html');
-// - - - - - - - - - - - - - - - - - - Abertura do Site - - - - - - -
+// - - - - - - - - - - - - - - - - Login in ou Sign up - - - - - -  -
+      
+
+// - - - - - - - - - - - - - - - - - Abertura do Site - - - - - - - -
       app.listen(3000);
