@@ -191,3 +191,11 @@
       app.get('/termos', (req, res) => {
             res.sendFile(__dirname + `/public/termos.html`);
       });
+
+      app.get('/login', (req, res) => {
+            res.sendFile(__dirname + "/public/login.html");
+      })
+
+      app.get('/cadastro', (req, res) => {
+            res.sendFile(__dirname + "/public/cadastro.html");
+      })
