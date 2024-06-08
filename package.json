@@ -8,7 +8,7 @@
     "start": "node server.js",
     "host": "start host.bat"
   },
-  "author": "Os doido da UTFPR",
+  "author": "IKGAI",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
