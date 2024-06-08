@@ -1,3 +1,21 @@
-.navbar.bg-primary {
-      background-color: azul;
+body {
+      background-color: #FFEEF2;
+}
+img {
+      width: 440px;
+      height: 530px;
+      float: left;
+      margin-right: 40px;
+}
+h1 {
+   padding: 18px;
+   color: #6CCFF6;
+}
+.alignleft{
+      background: lightskyblue;
+      height: 100px;
+      width: 100px; 
+      float: right;
+      margin-top: 30px;
+      margin-top: 30px;
 }
