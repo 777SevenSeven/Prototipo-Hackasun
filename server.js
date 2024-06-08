@@ -156,7 +156,7 @@
             res.sendFile(__dirname + `/public/aulas.html`);
       });
 
-      app.get('/Consumo%Sustentavel', (req, res) => {
+      app.get('/consumosustentavel', (req, res) => {
             res.sendFile(__dirname + `/public/consumo-sustentavel.html`);
       });
 
