@@ -11,6 +11,8 @@
 
       app.use('static', express.static('public'));
 
+      app.use('/assets', express.static(__dirname + '/assets'));
+
       app.use(express.json());
 
 // - - - - - - - - - - - - - - - - Banco de dados - - - - - - - - - -
@@ -149,10 +151,6 @@
       app.get('/', (req, res) => {
             res.sendFile(__dirname + `/public/index.html`);
       });
-
-      app.get('/img/solar', (req, res) => {
-            res.sendFile(__dirname + "./data/solar.jpg");
-      })
 
       app.get('/aulas', (req, res) => {
             res.sendFile(__dirname + `/public/aulas.html`);
