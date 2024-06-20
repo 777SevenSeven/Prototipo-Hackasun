@@ -1,0 +1,73 @@
+body{
+      background-color: #FFEEF2;
+  }
+  img{
+  
+  width: 440px;
+  height: 530px;
+  float: left;
+  margin-right: 40px;
+  }
+  
+  
+  h1{
+   padding: 18px;
+   
+  }
+  
+  
+  .alignleft{
+      background: lightskyblue;
+      height: 100px;
+      width: 100px; 
+      float: right;
+      margin-top: 30px;
+    }
+  
+  
+    .intro h1{
+      color: blue;
+  }
+  .intro h2{
+      color:#001011;
+  }
+  
+  .cursos{
+      padding-right: 64%;
+      margin-left: 2%;
+      float: left;
+      
+  }
+  .cursos p{
+  margin-top: 3%;
+  
+  }
+  .space{
+  margin: 3%;
+  
+  }
+  .card{
+      float:inline-start ;
+      margin: 0.5%;
+  }
+  .recompensas{
+      float: right;
+      padding-left: 45%;
+      position: relative;
+      margin-right : 20px;
+      margin-bottom: 20px;
+  }
+  .card-img-top{
+      width: 10px;
+      height: 130px;
+  }
+  .cont{
+      margin: 3%;
+  }
+  footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+  }
