@@ -110,7 +110,8 @@
 
             // validations
             if(!email) {
-                  return res.status(422).json({ msg: 'O email é obrigatório' });
+                  res.status(422).json({ msg: 'O email é obrigatório' });
+                  return 0;
             }
 
             if(!senha) {
